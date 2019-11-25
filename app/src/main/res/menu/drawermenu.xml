@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home">
+        </item>
+        <item
+            android:id="@+id/sc"
+            android:title="Shopping Cart"
+            android:icon="@drawable/shop">
+        </item>
+        <item
+            android:id="@+id/favorite"
+            android:title="Favorites"
+            android:icon="@drawable/favorite">
+        </item>
+
+    <item android:title="Menu" >
+        <menu>
+            <item
+                android:id="@+id/main"
+                android:title="Main Courses"
+                android:icon="@drawable/arrow">
+            </item>
+            <item
+                android:id="@+id/starter"
+                android:title="Starters"
+                android:icon="@drawable/arrow">
+            </item>
+            <item
+                android:id="@+id/dessert"
+                android:title="Desserts"
+                android:icon="@drawable/arrow">
+            </item>
+            <item
+                android:id="@+id/side"
+                android:title="Sides"
+                android:icon="@drawable/arrow"
+                >
+            </item>
+        </menu>
+    </item>
+    <item android:title="Contact">
+        <menu >
+            <item
+                android:id="@+id/oh"
+                android:title="Open Hours"
+                android:icon="@drawable/time">
+            </item>
+            <item
+                android:id="@+id/location"
+                android:title="Find us"
+                android:icon="@drawable/location">
+            </item>
+            <item
+                android:id="@+id/call"
+                android:title="Call us"
+                android:icon="@drawable/call">
+            </item>
+            <item
+                android:id="@+id/info"
+                android:title="Other informations"
+                android:icon="@drawable/info">
+            </item>
+        </menu>
+    </item>
+
+</menu>
